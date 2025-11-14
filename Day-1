@@ -1,1 +1,58 @@
 
+📢 Day 1 — AWS & DevOps Challenge: AWS SNS 🚀
+
+Objective: Learn to use AWS SNS (Simple Notification Service) for email notifications 📨💬
+
+Steps:
+
+🔑 Login to AWS Console
+Go to AWS Management Console
+ and log in.
+
+🛠️ Open SNS Service
+Navigate to Services → Simple Notification Service (SNS).
+
+🆕 Create an SNS Topic
+
+Click Topics → Create Topic
+
+Choose Standard Topic
+
+Enter a Name (e.g., MyTestTopic)
+
+Click Create Topic ✅
+
+✉️ Subscribe via Email
+
+Go to your topic → Subscriptions → Create subscription
+
+Protocol: Email
+
+Endpoint: Your email address
+
+Click Create subscription ✅
+
+Check your email and Confirm subscription
+
+📤 Publish a Test Message
+
+Click Publish message
+
+Subject: Test SNS Email
+
+Message: "Hello, Test email for SNS. Thanks!"
+
+Click Publish message ✅
+
+You will receive the test email shortly
+
+🔍 Verify & Explore
+
+Try sending multiple messages
+
+Experiment with other protocols like SMS, SQS, or Lambda
+
+Outcome:
+
+✅ Successfully created an SNS topic, subscribed via email, and sent test notifications
+🚀 Gained hands-on understanding of cloud-native pub/sub messaging
